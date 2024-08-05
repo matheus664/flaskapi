@@ -11,10 +11,10 @@ profiles = 12312
 
 
 url = "https://webservices.vianuvem.com.br/AdminVianuvem/public/token"
-data = {"login":"api.integracao", 
-            "pass":"rvQo1W$jq2I{",
+data = {"login":"", 
+            "pass":",
             "encryptedPass": "false",
-            "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhcGkuaW50ZWdyYWNhbyIsInVzZXIiOiJhcGkuaW50ZWdyYWNhbyIsInVzZXJJZCI6NTAyMjE1ODcsImV4cCI6MTcxNzQwMTU1MH0._GNtu9Y5QPYOP7rYzq7mwMTbWvpwvOW3EicuKr6mAB0"}
+            "token":""}
 
 json_data = json.dumps(data)
     
