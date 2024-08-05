@@ -93,7 +93,7 @@ def criar ():
     
     if request.method == "POST":
         
-        bearer_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhcGkuaW50ZWdyYWNhbyIsInZuU2VjcmV0IjoiZjc5NWU3NTdjZWIxYzVhOWY4MGU2ZTlkYjc4YmM0NWMiLCJ1c2VyIjoiYXBpLmludGVncmFjYW8iLCJ1c2VySWQiOjUwMjIxNTg3LCJleHAiOjE3MTk4Nzk0NTB9.clVgvDRV4S06ov_GGdzJ3CoFoKNPlD17ud0GUQqSoio"
+        bearer_token = ""
         headers = {"Authorization": f"Bearer {bearer_token}"}
         response = requests.post("https://webservices.vianuvem.com.br/AdminVianuvem/api/users/create", headers=headers)
         
